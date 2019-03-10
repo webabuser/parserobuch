@@ -1,0 +1,22 @@
+{
+    "name": "alex",
+    "authors": [
+        {
+            "name": "Alexey",
+            "email": "admin@admin.ru"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "electrolinux/phpquery": "dev-master",
+        "php-curl-class/php-curl-class": "dev-master"
+    },
+	"autoload":{
+		"psr-4":{
+			"App\\":"App/"
+		},
+		"files":[
+			"App/Helpers/helpers.php"
+		]
+	}
+}
