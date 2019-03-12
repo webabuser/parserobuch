@@ -1,6 +1,6 @@
 #Комментарии
-tmp/
+#tmp/
 vendor/
-logs/
+#logs/
 Обучение парсингу.clpprj
 Обучение парсингу_clcs.csprj
