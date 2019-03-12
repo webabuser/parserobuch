@@ -1,12 +1,17 @@
 {
-    "name": "alex",
+    "name": "webabuser/parserobuch",
+	"description":"Zakupki.gov.ru parser",
+	"license":"proprietary",
     "authors": [
         {
             "name": "Alexey",
-            "email": "admin@admin.ru"
+            "email": "vitiya@inbox.ru"
         }
     ],
 	"minimum-stability": "dev",
+	"require-dev":{
+		"phpunit/phpunit":"4.8.9"
+	},
     "require": {
         "electrolinux/phpquery": "dev-master",
         "php-curl-class/php-curl-class": "dev-master"
